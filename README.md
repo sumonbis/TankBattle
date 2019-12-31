@@ -8,6 +8,17 @@ Features:
 - Enemies power up gradually
 - Shoot, destroy thousands of tanks and enjoy
 
-Game screens
+# Game screens:
 
+## Home screen
+
+![Home screen](https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/1.png)
+
+## Game screen
+
+![Game screen](https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/2.png)
+
+## Score screen
+
+![Score screen](https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/3.png)
 

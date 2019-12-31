@@ -1,0 +1,105 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/diabg"
+     >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/ver" />
+
+    <TextView
+        android:id="@+id/alalalalal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:textSize="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/again"
+        android:text="BEST"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bestScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/retry"
+        android:layout_alignLeft="@+id/high"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#F2070A"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/alalalalal"
+        android:layout_marginRight="53dp"
+        android:layout_toLeftOf="@+id/alalalalal"
+        android:background="@drawable/home" />
+
+    <TextView
+        android:id="@+id/bari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/home"
+        android:layout_below="@+id/home"
+        android:layout_marginLeft="21dp"
+        android:text="HOME"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/retry"
+        android:layout_alignLeft="@+id/now"
+        android:gravity="center"
+        android:text="1234"
+        android:textColor="#0C8201"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/home"
+        android:layout_alignParentTop="true"
+        android:text="NOW"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/alalalalal"
+        android:background="@drawable/retry" />
+
+    <TextView
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bari"
+        android:layout_alignBottom="@+id/bari"
+        android:layout_alignLeft="@+id/retry"
+        android:layout_marginLeft="16dp"
+        android:text="RETRY"
+        android:textSize="20dp" />
+       
+    </RelativeLayout>
